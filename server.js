@@ -9,17 +9,17 @@ app.use(express.json());
 app.use(express.static("public"));
 
 const db = mysql.createConnection(
-    {
-      host: 'localhost',
-      // MySQL username,
-      user: 'root',
-      // TODO: Add MySQL password here
-      password: 'password',
-      database: 'homework_db'
-    },
-    console.log(`Connected to the homework_db database.`)
-  );
-  
+  {
+    host: "localhost",
+    // MySQL username,
+    user: "root",
+    // TODO: Add MySQL password here
+    password: "password",
+    database: "homework_db",
+  },
+  console.log(`Connected to the homework_db database.`)
+);
+
 function start() {
   inquirer
     .prompt([
@@ -74,7 +74,7 @@ function start() {
           start();
           break;
 
-          case "add a department":
+        case "add a department":
 
         // case "add a department":
         //   department();
@@ -111,9 +111,9 @@ const department = () => {
         name: "getDepartmentName",
         message: "Enter the new department name:",
       },
-    // ]).then(ans => {
-    //     const departmentAnswer = new departmentAnswer(ans.getDepartmentName)
-    // })
+      // ]).then(ans => {
+      //     const departmentAnswer = new departmentAnswer(ans.getDepartmentName)
+      // })
       {
         type: "list",
         name: "keepGoing",

@@ -14,6 +14,8 @@ SO THAT I can organize and plan my business
 
 ## Walkthrough Video
 
+
+
 ## Description
 
 This is a command line application that utilizes inquirer and mySQL to create a dynamic database that can be edited/modified from the command line. I have set up inquirer prompts with recursion to make a menu system that would allow a user to add, edit or delete employees, roles, and departments, with all the sub attributes that those tables contain.
