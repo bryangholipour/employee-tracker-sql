@@ -1,3 +1,6 @@
+
+--WILL RETURN TO FINISH THIS PIECE
+
 --SELECT *(or select some if you dont want all) FROM table
 --JOIN table
 --ON table.id (pets.owner_id=owners.id)
