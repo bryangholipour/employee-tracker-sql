@@ -2,7 +2,7 @@
 
 ## CODER'S NOTE
 
-** This assignment is far from being complete, but I have run into many bugs and run out of time. I was told that turning in something incomplete and ontime is better than turning in something late because I can always come back and complete it.**
+** This assignment is far from being complete, but I have run into many bugs/roadblocks and am out of time. I was told that turning in something incomplete and ontime is better than turning in something late because I can always come back and complete it. The tables, seed data, and prompts with recursion run fine, but there is a bug when calling the tables through the prompts I've made. I also didn't have time to get to the add prompts up and running.**
 
 ## User Story
 
@@ -14,11 +14,11 @@ SO THAT I can organize and plan my business
 
 ## Walkthrough Video
 
-
+https://drive.google.com/file/d/15LAHY6QNOVWP6tWLQmFvAaeTbUHKmeGX/view?usp=sharing
 
 ## Description
 
-This is a command line application that utilizes inquirer and mySQL to create a dynamic database that can be edited/modified from the command line. I have set up inquirer prompts with recursion to make a menu system that would allow a user to add, edit or delete employees, roles, and departments, with all the sub attributes that those tables contain.
+This is a command line application that utilizes inquirer and mySQL to create a dynamic database that can be displayed as tables and edited/modified from the command line. I have set up inquirer prompts with recursion to make a menu system that would allow a user to add, edit or delete employees, roles, and departments, with all the sub attributes that those tables contain.
 
 ## Usage
 
